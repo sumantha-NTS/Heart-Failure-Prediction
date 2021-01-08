@@ -10,6 +10,7 @@ Most cardiovascular diseases can be prevented by addressing behavioural risk fac
 People with cardiovascular disease or who are at high cardiovascular risk (due to the presence of one or more risk factors such as hypertension, diabetes, hyperlipidaemia or already established disease) need early detection and management wherein a machine learning model can be of great help.
 
 ## Feature Details : 
+Following are the feature used for predicting heart fail
 Age : Age of the Person
 Aneamia : Decrease of red blood cells or hemoglobin\
 Creatinine Phosphokinase : Level of the CPK enzyme in the blood (mcg/L) Normal Range : 10 to 120 micrograms per liter (mcg/L) \
@@ -22,3 +23,16 @@ Serum Sodium : Level of serum sodium in the blood (mEq/L) Normal Range : 135 and
 Time : Follow-up period (days)
 
 ## Algirithm Used for Prediction
+Following are the algorithms used for predicting heart fail along with their accuracy
+Sl.No.|       lgorithm      |Accuracy (%)|
+1.    | Logistic Regression | 85%        |
+2.    | SVM   | 85%        |
+2.| SVM	|73.33
+Logistic	85.00%
+
+KNN	66.67
+Naive Bayes	83.33
+Decision Tress	88.33
+AdaBoost	88.33
+XGBoost	93.33
+Random Forest	91.67
