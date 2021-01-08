@@ -9,7 +9,7 @@ Most cardiovascular diseases can be prevented by addressing behavioural risk fac
 
 People with cardiovascular disease or who are at high cardiovascular risk (due to the presence of one or more risk factors such as hypertension, diabetes, hyperlipidaemia or already established disease) need early detection and management wherein a machine learning model can be of great help.
 
-#Feature Details : \
+# Feature Details : \
 Age : Age of the Person
 Aneamia : Decrease of red blood cells or hemoglobin\
 Creatinine Phosphokinase : Level of the CPK enzyme in the blood (mcg/L) Normal Range : 10 to 120 micrograms per liter (mcg/L) \
@@ -20,3 +20,5 @@ High Blood Pressure : If the patient has hypertension \
 Serum Creatinine : Level of serum creatinine in the blood (mg/dL) Normal Range : 0.84 to 1.21 milligrams per deciliter \
 Serum Sodium : Level of serum sodium in the blood (mEq/L) Normal Range : 135 and 145 milliequivalents per liter \
 Time : Follow-up period (days)
+
+# Algirithm Used for Prediction
