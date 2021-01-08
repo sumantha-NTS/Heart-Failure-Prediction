@@ -27,13 +27,10 @@ Following are the algorithms used for predicting heart fail along with their acc
 Sl.No.|       lgorithm      |Accuracy (%)|
 ------|---------------------|------------|
 1.    | Logistic Regression | 85%        |
-2.    | SVM   | 85%        |
-2.| SVM	|73.33
-Logistic	85.00%
-
-KNN	66.67
-Naive Bayes	83.33
-Decision Tress	88.33
-AdaBoost	88.33
-XGBoost	93.33
-Random Forest	91.67
+2.    | SVM   | 73.33        |
+3.    | KNN   | 66.67        |
+4.    | Naive Bayes   | 83.33        |
+5.    | Decision Tree   | 88.33        |
+6.    | Ada Boost   | 88.33        |
+7.    | XG Boost   | 93.33        |
+8.    | Random Forest   | 91.67        |
