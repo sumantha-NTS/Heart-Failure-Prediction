@@ -35,4 +35,8 @@ Following are the algorithms used for predicting heart fail along with their acc
 |7.    | XG Boost   | 93.33        |
 |8.    | Random Forest   | 91.67        |
 
-From the above table, it is evidend that the best classifier for this problem is either **XGBoost or Random Forest**. So for the app building,*Random Forest* is considered for predicting Heart Failure.
+From the above table, it is evidend that the best classifier for this problem is either **XGBoost or Random Forest**. So for the app building, *Random Forest* is considered for predicting Heart Failure.
+
+## Deployment :
+I have used **Streamlit** library and **Heroku** platform to build the app.
+App URL : 
