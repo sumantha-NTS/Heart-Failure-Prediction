@@ -25,6 +25,7 @@ Time : Follow-up period (days)
 ## Algirithm Used for Prediction
 Following are the algorithms used for predicting heart fail along with their accuracy
 Sl.No.|       lgorithm      |Accuracy (%)|
+------|---------------------|------------|
 1.    | Logistic Regression | 85%        |
 2.    | SVM   | 85%        |
 2.| SVM	|73.33
