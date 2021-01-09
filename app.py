@@ -4,11 +4,10 @@ import streamlit as st
 
 pickle_in = open('Classifier.pkl','rb')
 model = pickle.load(pickle_in)
-#a=[[75,0,582,0,20,1,265000,1.9,130,1,0,4]]
 
+#Prediction Function
 def prediction(age,anaemia,cp,diabetes,eject,hbp,platelets,serum_cre,serum_sod,gender,smoke,time):
-        #def preprocessing():
-        #for Anaemia
+    #for Anaemia
     if(anaemia == 'Yes'):
         ana = 1
     else:
@@ -53,7 +52,7 @@ def main():
         st.sidebar.markdown('**Serum Sodium : ** Level of serum sodium in the blood (mEq/L) Normal Range : 135 and 145 milliequivalents per liter')
         st.sidebar.markdown('**Time : ** Follow-up period (days)')
     
-    
+    #reading the input data
     st.header('Patient Details')
     age = st.number_input('Age',value=25)
     
@@ -73,7 +72,8 @@ def main():
     serum_cre = st.text_input('Serum Creatinine value (mg/dL)',value=0.84)
     serum_sod = st.number_input('Serum Sodium value (mEq/L)',value=135)
     time = st.number_input('Days of follow-up with doctor',value=1)
-        
+    
+    #calling Prediction Function
     if st.button('Predict'):
         pred = prediction(age,anaemia,cp,diabetes,eject,hbp,platelets,serum_cre,serum_sod,gender,smoke,time)
   
